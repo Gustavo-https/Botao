@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: Arial;
+    position: relative;
+}
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.yes {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    
+}
+.yes{
+    margin-right: 100px;
+}
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nao {
+    background-color: red;
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    
+}
